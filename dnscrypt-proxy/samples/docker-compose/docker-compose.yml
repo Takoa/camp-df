@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  dnscrypt-proxy:
+    image: lotusrootjp/dnscrypt-proxy:alpine
+    network_mode: host
+    volumes:
+      - /root/dnscrypt-proxy.toml:/etc/dnscrypt-proxy/dnscrypt-proxy.toml
