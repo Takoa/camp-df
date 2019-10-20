@@ -5,4 +5,6 @@ ISC DHCP for IPv6 as a docker container
 ### docker-compose
 Edit *volumes* in docker-compose.yml to use your config (and .leases), then
 
-    # docker-compose up
+```shell
+$ docker-compose up
+```
