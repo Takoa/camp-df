@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  unbound:
+    image: lotusrootjp/unbound:alpine
+    network_mode: host
+    volumes:
+      - /root/unbound.conf:/etc/unbound/unbound.conf
